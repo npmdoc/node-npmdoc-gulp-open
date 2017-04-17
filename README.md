@@ -1,9 +1,11 @@
 # api documentation for  [gulp-open (v2.0.0)](http://github.com/stevelacy/gulp-open)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-open.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-open) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-open.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-open)
 #### Open files and URLs with gulp
 
-[![NPM](https://nodei.co/npm/gulp-open.png?downloads=true)](https://www.npmjs.com/package/gulp-open)
+[![NPM](https://nodei.co/npm/gulp-open.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-open)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-open/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-open_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-open/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-open/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-open/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-open/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-open/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-open/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +20,6 @@
 {
     "author": {
         "name": "Steve Lacy",
-        "email": "me@slacy.me",
         "url": "http://slacy.me/"
     },
     "bugs": {
@@ -57,13 +58,11 @@
     "main": "./index.js",
     "maintainers": [
         {
-            "name": "stevelacy",
-            "email": "me@slacy.me"
+            "name": "stevelacy"
         }
     ],
     "name": "gulp-open",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/stevelacy/gulp-open.git"
@@ -75,16 +74,6 @@
     "version": "2.0.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-open](#apidoc.module.gulp-open)
-
-
-
-# <a name="apidoc.module.gulp-open"></a>[module gulp-open](#apidoc.module.gulp-open)
 
 
 
