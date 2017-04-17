@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="http://github.com/stevelacy/gulp-open"
-
-    >gulp-open (v2.0.0)</a>
+    <a href="http://github.com/stevelacy/gulp-open">gulp-open (v2.0.0)</a>
 </h1>
 <h4>Open files and URLs with gulp</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-open">module gulp-open</a><ol>
 
@@ -113,25 +106,25 @@
   return through.obj(function(file, enc, cb) {
     var uri = opts.uri;
 
-    if (file.isNull() &#x26;&#x26; !uri) {
+    if (file.isNull() &amp;&amp; !uri) {
       return cb(new gutil.PluginError(PLUGIN_NAME,
-        &#x27;URI is missing or incorrect&#x27;));
+        'URI is missing or incorrect'));
     }
 
-    if (file.path &#x26;&#x26; !uri)  {
+    if (file.path &amp;&amp; !uri)  {
       uri = file.path;
     }
 
     if (opts.app) {
-      gutil.log(colors.blue(&#x27;Opening&#x27;, colors.green(uri), &#x27;using the app&#x27;,
+      gutil.log(colors.blue('Opening', colors.green(uri), 'using the app',
         colors.green(opts.app)));
       // Open with the given app
       open(uri, opts.app);
       return cb(null, file);
 
     }
-    gutil.log(colors.blue(&#x27;Opening&#x27;, colors.green(uri), &#x27;using the&#x27;,
-      colors.green(&#x27;default OS app&#x27;)));
+    gutil.log(colors.blue('Opening', colors.green(uri), 'using the',
+      colors.green('default OS app')));
     // Open with the default app defined by the os
     open(uri);
     return cb(null, file);
@@ -183,3 +176,4 @@
     ]
 </div>
 </div>
+</body></html>
