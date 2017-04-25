@@ -1,4 +1,7 @@
-# api documentation for  [gulp-open (v2.0.0)](http://github.com/stevelacy/gulp-open)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-open.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-open) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-open.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-open)
+# npmdoc-gulp-open
+
+#### basic api documentation for  [gulp-open (v2.0.0)](http://github.com/stevelacy/gulp-open)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-open.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-open) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-open.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-open)
+
 #### Open files and URLs with gulp
 
 [![NPM](https://nodei.co/npm/gulp-open.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-open)
@@ -71,7 +74,8 @@
         "pretest": "jshint *.js test/*.js",
         "test": "mocha --reporter spec"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
